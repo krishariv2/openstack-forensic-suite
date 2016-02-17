@@ -37,7 +37,7 @@ public class keystoneops {
 			 JSONObject p = (JSONObject)arr.get(i);
 			 String q= p.get(data).toString();
 			 ar.add(q);
-		     System.out.println(q);
+		     //System.out.println(q);
 		    }		
 		 String[] stringArray = ar.toArray(new String[ar.size()]);
 		 return stringArray;
@@ -49,7 +49,7 @@ public class keystoneops {
 		String newurl=newurl1.replace("5000","35357");
 		String jsonout;	
 		jsonout=rest_connector_get(authtoken,newurl);
-		System.out.println(jsonout);
+		//System.out.println(jsonout);
 	    return jsonout;
 	}
 	public  String[] get_userdata(String jsonin,String data) throws ParseException
