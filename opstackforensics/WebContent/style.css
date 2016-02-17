@@ -1,0 +1,212 @@
+*{
+	padding: 0;
+	margin:0;
+	font-weight: normal;
+	font-family: arial;
+}
+.totalcontainer
+{
+	width:100%;
+	height:auto;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+/* -----------header section-------------------------- */
+.header-section 
+{
+	width:100%;
+	min-height:130px;
+	background-color: #993366;
+	overflow:hidden;
+}
+.logo-sec
+{
+	
+	float: left;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+.logo
+{
+	float: left;
+	max-width:108px;
+}
+.logo-sec img
+{
+	width: 100%;
+	height:auto;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.logo-title {
+	
+	float: left;
+}
+.logo-title p
+{
+	padding-top:50px;
+	padding-left:20px;
+	font-size: 24px;
+	color:#e4e4e4;
+}
+.logout-sec p
+{
+	text-align: right;
+	padding-top:55px;
+	padding-right: 15px;
+	display:block;
+	overflow: hidden;
+}
+.logout-sec a
+{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+.logout-sec
+{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+//-----------main-container-------------------
+.main-container
+{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	display:block;
+	float: none;
+}
+.left-menu
+{
+	min-width:240px;
+	float:left;
+}
+.left-menu ul
+{
+	padding-top:15px;
+}
+.left-menu ul li a
+{
+	display:block;
+	text-decoration: none;
+	color:#554;
+	font-family: arial;
+	padding:12px;
+	border-bottom: 2px solid #E0C2D1;
+	border-right: 2px solid #E0C2D1;
+}
+.left-menu ul li:last-child a
+{
+	border-bottom: 2px solid #fff!important;
+}
+.left-menu ul li a:hover
+{
+	background-color: #ECDAE3;
+}
+.table-container
+{
+	padding-left:25px;
+	overflow:hidden;
+	display:block;
+	padding-top:20px;
+}
+.table-container table,tr,td,th
+{
+	margin:0;
+	padding:0;
+	
+	border-collapse:collapse;
+}
+.tblheader
+{
+	background-color: #ECDAE3;
+	text-align: center;
+	padding:6px;
+	font-size: 13px;
+}
+.user-icon
+{
+	background: url("images/man-icon.png") no-repeat;
+}
+.user-info p
+{
+	color: #993366;
+	padding-bottom:20px;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.userdatas tr td
+{
+	padding:6px;
+}
+.userdatas tr,td,th
+{
+	border: 2px solid #E0C2D1!important;
+}
+.userdatas tr td p
+{
+	font-size:13px;
+	text-align:center;
+	color:#3399FF!important;
+}
+.userdatas tr td a
+{
+	color:#3399FF!important;
+}
+.insta
+{
+	float:left;
+}
+.form-container table 
+{
+	border-collapse:collapse;
+	margin:0 auto;
+
+}
+/* ----------Login form styles------------------ */
+.form-error-message
+{
+	text-align:center;
+	padding-left:61px;
+	margin-top:10px;
+}
+.form-container
+{
+	margin:0 auto;
+	max-width:480px;
+	padding-top:150px;
+}
+.form-container tr,td
+{
+	border:2px solid #fff;
+}
+.form-container table tr td p
+{
+	padding:10px;
+	font-size: 13px;
+}
+.form-container .user,.auth,.pass
+{
+	width:230px;
+	height: 30px;
+	margin-bottom: 5px;
+	border:2px solid #E0C2D1;
+}
+input[type="submit"]
+{
+	height:35px;
+	width:70px;
+	margin-left:65px;
+	background-color: #993366;
+	color:#fff;
+	border:none;
+}
+.loginpage
+{
+/* 	background-image:url(images/bghome.png); */
+}
