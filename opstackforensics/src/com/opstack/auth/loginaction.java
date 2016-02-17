@@ -44,8 +44,8 @@ public class loginaction extends HttpServlet {
 		String username = request.getParameter("user");
         String password = request.getParameter("password");
         System.out.println("authurl:"+authurl);
-        System.out.println("username:"+username);
-        System.out.println("password:"+password);
+        //System.out.println("username:"+username);
+        //System.out.println("password:"+password);
         PrintWriter out = response.getWriter();
 
  //-------------------------Creating web client for api calls--------------------------------------------
